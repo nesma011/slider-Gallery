@@ -1,0 +1,42 @@
+.item{
+    position: relative;
+   
+}
+.item img{
+    cursor: pointer;
+}
+
+.slider{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    inset: 0;
+  
+
+}
+.slider-item{
+    background-image: url(../img/pizza1.jpg);
+    height: 70vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+.slider-item i{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.slider-item #close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* .slider-item #prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+} */
